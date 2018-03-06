@@ -1,0 +1,29 @@
+{
+    "name": "icosillion/secret-keeper",
+    "description": "Library to populate Docker Secrets into the environment",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Marcus Lewis",
+            "email": "marcus@icosillion.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Icosillion\\SecretKeeper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Icosillion\\SecretKeeper\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
